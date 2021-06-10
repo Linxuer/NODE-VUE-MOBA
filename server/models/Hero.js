@@ -14,7 +14,7 @@ const schema = new mongoose.Schema({
   skills: [{
     icon: { type: String },
     name: { type: String },
-    desciption: { type: String },
+    description: { type: String },
     tips: { type: String },
   }],
   items1: [ { type: mongoose.SchemaTypes.ObjectId, ref: 'Item' } ],
